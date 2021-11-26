@@ -1,0 +1,21 @@
+{
+  "name": "vdo.ninja-websocket-server",
+  "version": "1.0.0",
+  "description": "Websocket server for VDO.Ninja",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.3.3",
+    "ws": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.2.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
